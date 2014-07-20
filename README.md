@@ -75,7 +75,7 @@ To add a permanent alert:
 Alert::add('info','Please <a href="/account/email">validate your email address</a>');
 ```
 
-## Dismissible alerts
+### Dismissible alerts
 
 You can make any alert dismissible by appending `Dismissible` to the end of a method call or setting the third parameter to true when using the `add` method:
 
@@ -84,11 +84,11 @@ Alert::successDismissible('Your request was successful');
 Alert::add('info','We have loads of <a href="/specials">special offers today only</a>!', true);
 ```
 
-## Alert links
+### Alert links
 
 The example above uses a link to help the user get to the correct place for the alert. If you are using Bootstrap don't forget to add the `alert-link` class to the `<a>` tag.
 
-## Checking an alert exists
+### Checking an alert exists
 
 When a permanent alert is dismissed it remains in the alert messages but is marked as dismissed. You can check to see if an alert exists by using `Alert::has()`. This is useful when adding messages in multiple places in your code to avoid duplicate messages sent to the user.
 
@@ -98,7 +98,7 @@ if( !Alert::has('info','We have some special offers on today') ) {
 }
 ```
 
-## Displaying alerts
+### Displaying alerts
 
 Displaying alerts is easy with the built in `html` function. 
 
