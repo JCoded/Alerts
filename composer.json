@@ -1,0 +1,43 @@
+{
+	"name": "jcoded/alerts",
+	"description": "Package for managing Laravel alerts and displaying in Views",
+	"homepage" : "https://github.com/JCoded/Alerts",
+	"authors": [{
+		"name": "James Smith",
+		"email": "james@jcoded.it",
+		"homepage": "http://jcoded.it/",
+		"role": "Developer"
+	}],
+	"support": {
+		"issues": "https://github.com/JCoded/Alerts/issues"
+	},
+	"keywords" : [
+		"laravel",
+		"session",
+		"alerts",
+		"foundation",
+		"bootstrap"
+	],
+	"license" : [
+		"MIT"
+	],
+	"require": {
+		"php": ">=5.4.0",
+		"illuminate/config": "4.2.*",
+		"illuminate/container": "4.2.*",
+		"illuminate/events": "4.2.*",
+		"illuminate/routing": "4.2.*",
+		"illuminate/session": "4.2.*",
+		"illuminate/support": "4.2.*",
+		"illuminate/view": "4.2.*"
+    },
+	"require-dev" : {
+		"mockery/mockery": "dev-master@dev",
+		"orchestra/testbench": "2.2.*"
+	},
+    "autoload": {
+        "psr-0": {
+            "JCoded\\Alerts\\": "src/"
+        }
+    }
+}
