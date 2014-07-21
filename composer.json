@@ -1,6 +1,6 @@
 {
 	"name": "jcoded/alerts",
-	"description": "Package for managing Laravel alerts and displaying in Views",
+	"description": "Fluently add and display alert messages in Laravel.",
 	"homepage" : "https://github.com/JCoded/Alerts",
 	"authors": [{
 		"name": "James Smith",
@@ -15,6 +15,9 @@
 		"laravel",
 		"session",
 		"alerts",
+		"alert",
+		"messages",
+		"notification",
 		"foundation",
 		"bootstrap"
 	],
